@@ -6,8 +6,20 @@
 }
 
 
-
-
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#182061e0;
+    box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+    z-index: 10000000;
+    }
+  
 
 .hero {
     position: relative;
@@ -15,6 +27,7 @@
     height: 100vh;
     overflow: hidden;
   }
+
   
   .hero-content {
     position: absolute;
@@ -37,6 +50,34 @@
   
 
   
+  .gallery{
+    background: #34d3b4 ;
+    min-height: 100vh;
+    padding: 2rem 9%;
+}
+.galleryheading{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 30px;
+}
+.galleryheading span{
+    color: #43b9dc;
+}
+.main-gallery .gallery-box{
+    flex: 1 1 300px;
+}
+.main-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.gallery-box img{
+    width: 100%;
+}
+
+
+
 
 
 
