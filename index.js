@@ -8,7 +8,7 @@ window.addEventListener('load', function() {
 
   // Update the background
 function updateBackground() {
-    const colors = ["#ff0000", "#00ff00", "#0000ff"]; // Add more colors if desired
+    const colors = ["#da68a0", "#77c5893", "#316879", "#f47a60", "#7fe7dc", "#1fbfb8", ]; // Add more colors if desired
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.querySelector(".hero").style.backgroundColor = randomColor;
   }
@@ -18,7 +18,8 @@ function updateBackground() {
   
 
 //    Alert in in-browser JavaScript - Does not return anything
-        alert("JENAB EID MUBARAK !  "); 
+        alert("عيد أل أذا مبارك,  ٱلسَّلَامُ عَلَيْكُمْ")
+        
 
         Prompt in JS
         let name = prompt("What is your name?", "Guest");
